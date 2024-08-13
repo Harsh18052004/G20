@@ -1,0 +1,24 @@
+.vibrantText {
+  color: #d9ff06;
+  font-size: 1.4rem;
+}
+
+li {
+  line-height: 24px;
+  overflow: hidden;
+}
+li:hover .letter,
+.text.play .letter {
+  transform: translateY(-100%);
+}
+li .letter {
+  display: inline-block;
+  transition: tranform 0.6s ease-in-out;
+}
+.newClass li{
+  transition : transform 0.6s ease-in-out;
+}
+.newClass li:hover{
+  transform: translateY(-20%);
+  scale: 1.2;
+}

@@ -1,0 +1,6 @@
+.links:hover {
+  color: #dcff1f;
+}
+.links {
+  transition-duration: 0.5s;
+}
